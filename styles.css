@@ -4,8 +4,18 @@
     box-sizing: border-box;
 }
 
-#foto {
+#veronicah1 {
+    color: white;
+    text-shadow: 2px 2px #11225e;
+}
+
+.foto {
     border-radius: 50%;
+}
+
+.foto:hover {
+    transform: scale(1.13);
+    transition-duration: 0.8s;
 }
 
 nav {
@@ -28,30 +38,49 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#text {
-    margin-top: 11%;
-    margin-bottom: 11%;
+.nav {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
-button {
-    background-color:#4861BD;
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    text-decoration: none;
+    background-color: #A5B6F2;
+    padding: 5%;
+    color: #11225e;
+
+}
+
+.caixa {
+/*     background-color:#4861BD; */
     outline: none;
     color: white;
-    padding: 2rem;
+    padding: 1.2rem;
     border: none;
     font-family: 'Trebuchet MS';
     font-size: medium;
+    text-decoration: none;
+    
 }
 
-button:hover {
+.caixa:hover {
     background-color:#A5B6F2;
+    transform: scale(1.1);
+    transition-duration: 0.7s;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 2%;
+
+
 }
 
 section {
@@ -62,26 +91,91 @@ section {
 
 }
 
+.section {
+    background-color: white;
+}
+
 .subtitulo {
     color:#4861BD;
 }
 
-/* .descricao {
-    border: solid #4861BD;
-
-} */
-
-footer {
-    background-color: #2B3A70;
-}
-
 .div-port {
     text-justify: justify;
+    gap: 15px;
 }
 
 .exp-prof {
     display: flex;
-/*     flex-wrap: wrap; */
-    gap: 3%;
+    flex-wrap: wrap;
+    gap: 50px;;
     padding: 5%;
+}
+
+.imgp {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.formulario {
+    background-color:#6979b4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subtitulo2 {
+    color: white
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.input {
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px;
+        border: none;
+        margin-bottom: 10px;
+        border-radius: 50px;
+}
+
+button {
+        width: 90px;
+        margin: 0 auto;
+        padding: 10px;
+        border: none;
+        background-color: #11225e;
+        color: white;
+        margin-bottom: 10px;
+        border-radius: 50px;
+}
+
+button:hover{
+    background-color:#A5B6F2;
+    transform: scale(1.1);
+    transition-duration: 0.7s; 
+    border: solid #11225e;
+    color: #11225e;
+}
+
+footer {
+    padding: 10%;
+    background-color: #2B3A70;
+    text-align: center;
+    gap: 5%;
+    color: white;
+    padding: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
 }
